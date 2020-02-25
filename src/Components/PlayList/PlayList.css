@@ -20,8 +20,30 @@
   font-size: 1.55rem;
   color: #fff;
 }
-
 .Playlist-save {
+  width:100%;
+  display: flex;
+  align-items: center;
+  border-bottom: .5px solid rgba(256, 256, 256, 0.8);
+}
+.Playlist-save-info {
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 72px;
+}
+.Playlist-save-info h3 {
+  margin-bottom: .22rem;
+}
+
+.Playlist-save-info p {
+  font-size: .83rem;
+  font-weight: 300;
+  color: rgba(256, 256, 256, 0.8);
+}
+
+.Playlist-save-button {
   cursor: pointer;
   width: 10rem;
   padding: .77rem 0;
@@ -35,10 +57,11 @@
   color: #fff;
   font-weight: 500;
 }
-
-.Playlist-save:hover {
+.Playlist-save-button:hover {
   background-color: rgba(108, 65, 233, .7);
 }
+
+
 
 ::-webkit-scrollbar {
     width: 0px;
